@@ -288,7 +288,11 @@ pre[class*='language-'] {
 
   @at-root ol#{&} > li::before {
     content: var(--list-item-index);
+<<<<<<< HEAD
     font-size: 2em;
+=======
+    font-size: unset;
+>>>>>>> parent of 9faa4de (Update notion.scss)
     width: unset;
     min-width: 1.5rem;
   }
