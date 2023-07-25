@@ -120,7 +120,7 @@ svg + .notion-page-title-text {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1.05em;
+  font-size: 1.5em;
 }
 
 .notion-callout-text {
@@ -288,11 +288,7 @@ pre[class*='language-'] {
 
   @at-root ol#{&} > li::before {
     content: var(--list-item-index);
-<<<<<<< HEAD
-    font-size: 2em;
-=======
     font-size: unset;
->>>>>>> parent of 9faa4de (Update notion.scss)
     width: unset;
     min-width: 1.5rem;
   }
