@@ -288,7 +288,7 @@ pre[class*='language-'] {
 
   @at-root ol#{&} > li::before {
     content: var(--list-item-index);
-    font-size: unset;
+    font-size: 1.5em;
     width: unset;
     min-width: 1.5rem;
   }
