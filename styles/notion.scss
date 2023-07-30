@@ -64,7 +64,6 @@
 .notion-text,
 .notion-quote,
 .notion-h-title {
-  font-size: 1.5rem
   @apply p-0;
   line-height: var(--no-leading);
 }
@@ -417,4 +416,11 @@ pre[class*='language-'] {
       padding-top: 1em !important;
     }
   }
+}
+.notion,
+.notion-text,
+.notion-quote,
+.notion-h-title {
+  font-size: 1.5rem; /* 将字体大小设置为 2rem */
+  line-height: 1.8; /* 可以选择调整行高，也可以不调整 */
 }
