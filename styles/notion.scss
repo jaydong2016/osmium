@@ -3,7 +3,7 @@
 /* NOTION CSS OVERRIDE */
 
 :root {
-  --no-leading: 1.5rem;
+  --no-leading: 2rem;
 
   /* Notion colors */
 
@@ -64,6 +64,7 @@
 .notion-text,
 .notion-quote,
 .notion-h-title {
+  font-size: 1.5rem
   @apply p-0;
   line-height: var(--no-leading);
 }
@@ -416,10 +417,4 @@ pre[class*='language-'] {
       padding-top: 1em !important;
     }
   }
-}
-.notion,
-.notion-text,
-.notion-quote,
-.notion-h-title {
-  font-size: 2rem; /* 将字体大小设置为 2rem */
 }
